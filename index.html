@@ -293,6 +293,27 @@
       opacity: 1;
       transform: translateY(0);
     }
+
+    /* Make all gallery images uniform */
+.gallery-grid img,
+.grid-2 img,
+.grid-3 img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+/* For before/after specific */
+.grid-2 .rounded-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* For 3-column gallery */
+.grid-3 .rounded-img {
+  height: 250px;
+  object-fit: cover;
+}
   </style>
 </head>
 <body>
